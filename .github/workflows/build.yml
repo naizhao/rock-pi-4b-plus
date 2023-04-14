@@ -1,6 +1,8 @@
 name: Monthly build
 on: workflow_dispatch
 
+permissions: write-all
+
 jobs:
   prepare_release:
     permissions:
